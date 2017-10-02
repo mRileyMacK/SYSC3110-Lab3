@@ -5,7 +5,7 @@ public class AddressBook {
 	private static Set<BuddyInfo> book = new HashSet<BuddyInfo>();
 	
 	public static void main(String[] args) {
-		System.out.println("Address Book!");
+		System.out.println("Address Book!! :D");
 		BuddyInfo buddy = new BuddyInfo("bud", 78, 89);
 		addBuddy(buddy);
 		removeBuddy(buddy);
